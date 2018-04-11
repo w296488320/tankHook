@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView 
+        android:id="@+id/xygame_float_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/float_btn_hide_icon"
+        />
+
+    <TextView
+        android:id="@+id/xygame_float_dot_tv"
+        android:visibility="gone"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/float_dot_icon" />
+
+</RelativeLayout>

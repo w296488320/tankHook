@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/float_menu_main_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="@drawable/float_menu_bg"
+    android:gravity="center"
+    android:minHeight="45.0dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/float_menu_left_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/float_btn_show_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/float_menu_personal_tv"
+        style="@style/float_item_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5.0dip"
+        android:background="@drawable/float_menu_item_bg"
+        android:drawableTop="@mipmap/float_menu_personal_icon"
+        android:text="用户" />
+
+    <TextView
+        android:id="@+id/float_menu_gifts_tv"
+        style="@style/float_item_style"
+        android:background="@drawable/float_menu_item_bg"
+        android:drawableTop="@mipmap/float_menu_gift_icon"
+        android:text="礼包" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/xygame_float_menu_msg_tv"
+            style="@style/float_item_style"
+            android:background="@drawable/float_menu_item_bg"
+            android:drawableTop="@mipmap/float_menu_notice_icon"
+            android:text="消息" />
+
+        <TextView
+            android:id="@+id/float_menu_dot_tv"
+            android:visibility="gone"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/float_dot_icon" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/float_menu_help_tv"
+        style="@style/float_item_style"
+        android:background="@drawable/float_menu_item_bg"
+        android:drawableTop="@mipmap/menu_help_icon"
+        android:text="帮助" />
+
+    <ImageView
+        android:id="@+id/float_menu_right_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/float_btn_show_icon"
+        android:visibility="visible" />
+
+</LinearLayout>
